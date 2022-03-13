@@ -4,7 +4,7 @@ https://github.com/juaannavarro/ejs.Ordenar
 
 # Ejercicio 1:
 
-///
+```
 
  
 t = [15,68,75,34,2,35,56] 
@@ -21,13 +21,13 @@ class ordenacion_dicotomica:
   def ordenar(self):
     while self.inicio < self.fin:
       for i in range (self.inicio+1,self.fin):
-      ///
+ ```
       
       
       
  # Ejercicio 2:
  
- ///
+ ```
  
  import random
 lista_tareas = []
@@ -69,11 +69,11 @@ def nombrar_tareas():
     print("Las tareas son en orden de prioridad:" , {lista_tareas_ordenada})
 nombrar_tareas()
 
-///
+```
 
 # Ejercicio 3:
 
-///
+```
 
 import random
 
@@ -120,4 +120,4 @@ dicotomia(numero_medio)
 listafinal=listafinal+ lista1 + lista2
 print("La lista final con dicotomía es:",  {listafinal})
 
-///
+```
